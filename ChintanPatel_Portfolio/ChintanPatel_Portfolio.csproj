@@ -134,6 +134,7 @@
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\BugSmasher.css" />
     <Content Include="Content\Imageslider.css" />
     <Content Include="Content\Registration.css" />
     <Content Include="Content\Site.css" />
@@ -148,6 +149,12 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\BugSmasher\Banner.jpg" />
+    <Content Include="Images\BugSmasher\BodyBackground.gif" />
+    <Content Include="Images\BugSmasher\CanvasBackground.jpg" />
+    <Content Include="Images\BugSmasher\firework.gif" />
+    <Content Include="Images\BugSmasher\LadybugGray.gif" />
+    <Content Include="Images\BugSmasher\movingbug.gif" />
     <Content Include="Images\ImageSlider\background1 - Copy.jpg" />
     <Content Include="Images\ImageSlider\clear.gif" />
     <Content Include="Images\ImageSlider\IMG_01.jpg" />
@@ -176,6 +183,7 @@
     <Content Include="Images\ImageSlider\IMG_12sm.jpg" />
     <Content Include="Images\ImageSlider\left.png" />
     <Content Include="Images\ImageSlider\right.png" />
+    <Content Include="Scripts\BugSmasher.js" />
     <Content Include="Scripts\modernizr.custom.05819.js" />
     <Content Include="ZoomImageSlider.html" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
