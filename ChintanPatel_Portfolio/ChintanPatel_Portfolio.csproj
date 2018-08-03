@@ -132,6 +132,7 @@
     <Content Include="Bugsmasher_Game.aspx" />
     <Content Include="Carinventry.aspx" />
     <Content Include="Contact.aspx" />
+    <Content Include="Content\BMICalcualtor.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\BugSmasher.css" />
@@ -149,6 +150,9 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\BMICalculator\b2.png" />
+    <Content Include="Images\BMICalculator\background2 - Copy.jpg" />
+    <Content Include="Images\BMICalculator\background2.jpg" />
     <Content Include="Images\BugSmasher\Banner.jpg" />
     <Content Include="Images\BugSmasher\BodyBackground.gif" />
     <Content Include="Images\BugSmasher\CanvasBackground.jpg" />
@@ -183,6 +187,7 @@
     <Content Include="Images\ImageSlider\IMG_12sm.jpg" />
     <Content Include="Images\ImageSlider\left.png" />
     <Content Include="Images\ImageSlider\right.png" />
+    <Content Include="Scripts\BMIClaculator.js" />
     <Content Include="Scripts\BugSmasher.js" />
     <Content Include="Scripts\modernizr.custom.05819.js" />
     <Content Include="ZoomImageSlider.html" />
@@ -315,6 +320,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="obj\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
