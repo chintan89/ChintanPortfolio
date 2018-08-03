@@ -137,6 +137,7 @@
     <Content Include="Content\Imageslider.css" />
     <Content Include="Content\Registration.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\ZoomImageSlider.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -147,6 +148,36 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\ImageSlider\background1 - Copy.jpg" />
+    <Content Include="Images\ImageSlider\clear.gif" />
+    <Content Include="Images\ImageSlider\IMG_01.jpg" />
+    <Content Include="Images\ImageSlider\IMG_01sm.jpg" />
+    <Content Include="Images\ImageSlider\IMG_02.jpg" />
+    <Content Include="Images\ImageSlider\IMG_02sm.jpg" />
+    <Content Include="Images\ImageSlider\IMG_03.jpg" />
+    <Content Include="Images\ImageSlider\IMG_03sm.jpg" />
+    <Content Include="Images\ImageSlider\IMG_04.jpg" />
+    <Content Include="Images\ImageSlider\IMG_04sm.jpg" />
+    <Content Include="Images\ImageSlider\IMG_05.jpg" />
+    <Content Include="Images\ImageSlider\IMG_05sm.jpg" />
+    <Content Include="Images\ImageSlider\IMG_06.jpg" />
+    <Content Include="Images\ImageSlider\IMG_06sm.jpg" />
+    <Content Include="Images\ImageSlider\IMG_07.jpg" />
+    <Content Include="Images\ImageSlider\IMG_07sm.jpg" />
+    <Content Include="Images\ImageSlider\IMG_08.jpg" />
+    <Content Include="Images\ImageSlider\IMG_08sm.jpg" />
+    <Content Include="Images\ImageSlider\IMG_09.jpg" />
+    <Content Include="Images\ImageSlider\IMG_09sm.jpg" />
+    <Content Include="Images\ImageSlider\IMG_10.jpg" />
+    <Content Include="Images\ImageSlider\IMG_10sm.jpg" />
+    <Content Include="Images\ImageSlider\IMG_11.jpg" />
+    <Content Include="Images\ImageSlider\IMG_11sm.jpg" />
+    <Content Include="Images\ImageSlider\IMG_12.jpg" />
+    <Content Include="Images\ImageSlider\IMG_12sm.jpg" />
+    <Content Include="Images\ImageSlider\left.png" />
+    <Content Include="Images\ImageSlider\right.png" />
+    <Content Include="Scripts\modernizr.custom.05819.js" />
+    <Content Include="ZoomImageSlider.html" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="ImageSlider.aspx" />
     <Content Include="Images\background0.jpg" />
@@ -155,6 +186,7 @@
     <Content Include="Registration_Form.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\ImageSlider.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
@@ -181,6 +213,7 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Scripts\ZoomImageSlider.js" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
