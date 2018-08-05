@@ -1,18 +1,15 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="BMICalculator.aspx.cs" Inherits="ChintanPatel_Portfolio.BMICalculator" %>
-
-<!DOCTYPE html>
-
+﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head >
     <title>Chintan Patel-BMR Claculator</title>
     <link href="Content/BMICalcualtor.css" rel="stylesheet" />
     <script src="Scripts/BMIClaculator.js"></script>
 </head>
 <body style="background-image:url('Images/BMICalculator/background2%20-%20Copy.jpg')">
-   
+
     <div>
         <div>
-            <a class="action" href="Default.aspx">Back To Home Page</a>
+            <a class="action" href="Home.html">Back To Home Page</a>
         </div>
         <p>Click on the  button to open the Form:</p>
         <div class="tab">
@@ -44,10 +41,10 @@
                 </div>
 
                 <div>
-                   
+
                     <div>
                         <label>HEIGHT(IN)</label>
-                        <input type="number" id="height"  required/>
+                        <input type="number" id="height" required />
                     </div>
                 </div>
                 <div>
@@ -93,7 +90,7 @@
                 </div>
 
                 <div>
-                  
+
                     <div>
                         <label>HEIGHT(CM)</label>
                         <input type="number" id="txtCm" required />
@@ -113,7 +110,7 @@
                 </div>
                 <div>
                     <input type="submit" value="Calculate BMR" onclick="Matrics()" />
-                    
+
                 </div><br />
 
             </form>
@@ -123,16 +120,17 @@
 
 
         <div class="content">
-                
-             <span>What is your BMR?</span><br />
-            <h3 > Basal Metabolic Rate (BMR) with this calculator.<br />
-                Your BMR (Basal Metabolic Rate) is an estimate of how many <br /> 
+
+            <span>What is your BMR?</span><br />
+            <h3>
+                Basal Metabolic Rate (BMR) with this calculator.<br />
+                Your BMR (Basal Metabolic Rate) is an estimate of how many <br />
                 calories you'd burn if you were to do nothing but rest for 24 hours.<br />
                 It represents the minimum amount of energy needed to keep your <br />
-             body functioning, including breathing and keeping your heart beating.<br />
+                body functioning, including breathing and keeping your heart beating.<br />
                 You have two calculators to choose from; metric and imperial.<br /><br />
-            <a>Note that both calculators use the Harris-Benedict <br /> equation to calculate figures.</a>
-             </h3> 
+                <a>Note that both calculators use the Harris-Benedict <br /> equation to calculate figures.</a>
+            </h3>
 
         </div>
 
@@ -144,3 +142,4 @@
 
 </body>
 </html>
+

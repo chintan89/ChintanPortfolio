@@ -127,9 +127,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
-    <Content Include="BMICalculator.aspx" />
-    <Content Include="Bugsmasher_Game.aspx" />
+    <Content Include="About.html" />
+    <Content Include="BMI_Calculator.html" />
+    <Content Include="BugSmasher_Game.html" />
+    <Content Include="CarInventory.html" />
     <Content Include="CarInventoryProject\Advantages.html" />
     <Content Include="CarInventoryProject\CarFinder.html" />
     <Content Include="CarInventoryProject\Chevrolate.html" />
@@ -139,27 +140,28 @@
     <Content Include="CarInventoryProject\Nissan.html" />
     <Content Include="CarInventoryProject\Used Car Inventory.html" />
     <Content Include="CarInventoryProject\VolksWagen.html" />
-    <Content Include="Carinventry.aspx" />
-    <Content Include="Contact.aspx" />
+    <Content Include="Contact.html" />
     <Content Include="Content\BMICalcualtor.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\BugSmasher.css" />
     <Content Include="Content\CarInventory.css" />
+    <Content Include="Content\Home.css" />
     <Content Include="Content\Imageslider.css" />
     <Content Include="Content\Registration.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\ZoomImageSlider.css" />
-    <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Global.asax" />
+    <Content Include="Home.html" />
+    <Content Include="ImageSlider.html" />
     <Content Include="Images\BMICalculator\b2.png" />
     <Content Include="Images\BMICalculator\background2 - Copy.jpg" />
     <Content Include="Images\BMICalculator\background2.jpg" />
@@ -239,6 +241,7 @@
     <Content Include="Images\CarInventory\Used\volksw4.jpeg" />
     <Content Include="Images\CarInventory\Used\volksw5.jpeg" />
     <Content Include="Images\CarInventory\Used\volksw6.jpeg" />
+    <Content Include="Images\Homepage\home_header.jpg" />
     <Content Include="Images\Home_Logo.jpg" />
     <Content Include="Images\ImageSlider\background1 - Copy.jpg" />
     <Content Include="Images\ImageSlider\clear.gif" />
@@ -268,12 +271,12 @@
     <Content Include="Images\ImageSlider\IMG_12sm.jpg" />
     <Content Include="Images\ImageSlider\left.png" />
     <Content Include="Images\ImageSlider\right.png" />
+    <Content Include="Registration_Form.html" />
     <Content Include="Scripts\BMIClaculator.js" />
     <Content Include="Scripts\BugSmasher.js" />
     <Content Include="Scripts\modernizr.custom.05819.js" />
     <Content Include="ZoomImageSlider.html" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="ImageSlider.aspx" />
     <Content Include="Images\background0.jpg" />
     <Content Include="Images\centeniallogo1.jpg" />
     <Content Include="Images\Wallpaper01.jpg" />
@@ -308,66 +311,14 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Scripts\ZoomImageSlider.js" />
-    <Content Include="Site.Master" />
-    <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
-    <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="BMICalculator.aspx.cs">
-      <DependentUpon>BMICalculator.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="BMICalculator.aspx.designer.cs">
-      <DependentUpon>BMICalculator.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Bugsmasher_Game.aspx.cs">
-      <DependentUpon>Bugsmasher_Game.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Bugsmasher_Game.aspx.designer.cs">
-      <DependentUpon>Bugsmasher_Game.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Carinventry.aspx.cs">
-      <DependentUpon>Carinventry.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Carinventry.aspx.designer.cs">
-      <DependentUpon>Carinventry.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="ImageSlider.aspx.cs">
-      <DependentUpon>ImageSlider.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ImageSlider.aspx.designer.cs">
-      <DependentUpon>ImageSlider.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registration_Form.aspx.cs">
@@ -376,27 +327,6 @@
     </Compile>
     <Compile Include="Registration_Form.aspx.designer.cs">
       <DependentUpon>Registration_Form.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Site.Master.cs">
-      <DependentUpon>Site.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Site.Master.designer.cs">
-      <DependentUpon>Site.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Site.Mobile.Master.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Site.Mobile.Master.designer.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
-    </Compile>
-    <Compile Include="ViewSwitcher.ascx.cs">
-      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ViewSwitcher.ascx.designer.cs">
-      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
